@@ -1,0 +1,274 @@
+{
+	"variables": [],
+	"info": {
+		"name": "dev_lie",
+		"_postman_id": "c88060cc-c4f9-b20a-0f9a-5cdca55dd849",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/dev_lie/public/api/getStories",
+			"request": {
+				"url": "http://localhost/dev_lie/public/api/getStories",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/dev_lie/public/api/getStories",
+			"request": {
+				"url": "http://localhost/dev_lie/public/api/register",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "sam1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "vikashverma003@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/dev_lie/public/api/getStories",
+			"request": {
+				"url": "http://localhost/dev_lie/public/api/getStories",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "sam1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "vikashverma003@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/dev_lie/public/api/getStories",
+			"request": {
+				"url": "http://localhost/dev_lie/public/api/getCategory",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "sam1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "vikashverma003@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/dev_lie/public/api/addStories",
+			"request": {
+				"url": "http://localhost/dev_lie/public/api/addStories",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "test",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "testoooo",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category_id",
+							"value": "3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"value": "",
+							"description": "",
+							"type": "file"
+						},
+						{
+							"key": "created_by",
+							"value": "3",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/dev_lie/public/api/postCategory",
+			"request": {
+				"url": "http://localhost/dev_lie/public/api/postCategory",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "johnson",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "description",
+							"value": "Some johny description mnbncb ncvnc",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/dev_lie/public/api/getStories",
+			"request": {
+				"url": "http://localhost/dev_lie/public/api/getCategory",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "sam1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "vikashverma003@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

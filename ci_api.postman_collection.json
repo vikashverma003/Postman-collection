@@ -1,0 +1,55 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ci_api",
+		"_postman_id": "0f6ed960-c8e8-b651-6384-cef54388a2fd",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/ci-php-webapi/api/blogs",
+			"request": {
+				"url": "http://localhost/ci-php-webapi/api/blogs",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ci-php-webapi/api/blogs",
+			"request": {
+				"url": "http://localhost/ci-php-webapi/api/categories",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ci-php-webapi/api/blogs",
+			"request": {
+				"url": "http://localhost/ci-php-webapi/api/featured_blogs",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ci-php-webapi/api/blogs",
+			"request": {
+				"url": "http://localhost/ci-php-webapi/api/recent_blogs",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"variables": [],
+	"info": {
+		"name": "yelp",
+		"_postman_id": "43708afb-e5dd-240c-fb5f-6bd84df96052",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.yelp.com/v3/businesses/search?location=India",
+			"request": {
+				"url": {
+					"raw": "https://api.yelp.com/v3/businesses/search?location=India",
+					"protocol": "https",
+					"host": [
+						"api",
+						"yelp",
+						"com"
+					],
+					"path": [
+						"v3",
+						"businesses",
+						"search"
+					],
+					"query": [
+						{
+							"key": "location",
+							"value": "India",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer iLJyFLlgCPav_xnH9IIMs0Cu6vI6-dUzaIAnxktK_SJeWSSLgXzMCItZeu2-wBhU0dvvJh5yTS8A5K38WJiRmiqklRbliISnywUjzn7dWQvmFoHdP_1wAVxMG6pRXXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://app.prepsponsor.com/api/getSponsors/90001",
+			"request": {
+				"url": "https://app.prepsponsor.com/api/getSponsors/90001",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://app.prepsponsor.com/api/selectPackage/",
+			"request": {
+				"url": "https://app.prepsponsor.com/api/selectPackage/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

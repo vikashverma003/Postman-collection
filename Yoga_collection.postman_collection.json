@@ -1,0 +1,119 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Yoga_collection",
+		"_postman_id": "4e1ba24d-946c-44dd-c3c6-d96e182f3789",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://104.248.52.6/fitneb/api/getForYoga",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getForYoga",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5ee72306f9d34a1106031a04",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "type",
+							"value": "exercise",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getForYoga",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getForYoga",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5ee72306f9d34a1106031a04",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "type",
+							"value": "myworkout",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addToMyYoga",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addToMyYoga",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5ee72306f9d34a1106031a04",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "yoga_id",
+							"value": "5ee70f51f9d34a67670dce63",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getForYoga",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getForYoga",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5ee72306f9d34a1106031a04",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "type",
+							"value": "workout",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

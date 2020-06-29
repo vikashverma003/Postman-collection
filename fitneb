@@ -1,0 +1,2074 @@
+{
+	"variables": [],
+	"info": {
+		"name": "fitnebApi",
+		"_postman_id": "312bdd5e-921c-dcb2-a0c4-b9cb2ac5ea09",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://104.248.52.6/fitneb/api/register",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/register",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "sam",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "samy",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "vikas.auspicioussoft@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "mohali",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "device_type",
+							"value": "samsung",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "device_token",
+							"value": "sasasaasasasasa",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "30.67995",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "76.72211",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/login",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "vikas.auspicioussoft@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "device_type",
+							"value": "samsung",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "device_token",
+							"value": "sasasaasasasasa",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "mohali",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "30.67995",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "76.72211",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/get_follow_list",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/get_follow_list",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/edit_profile",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/edit_profile",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c39d4f9d34a038650ad92",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "height_inches",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "weight_kg",
+							"value": "22",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "sex",
+							"value": "female",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/follow_user",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/follow_user",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9d7482f9d34a07d06086a2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "other_user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "follow_status",
+							"value": "Y",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/register",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/register",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "vadicww",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "vamww",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "vikas.auspicioussoft+1@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "mohali",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "device_type",
+							"value": "samsung",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "device_token",
+							"value": "sasasaasasasasa",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "30.67995",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "76.72211",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/get_follow_list",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/get_follow_list",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/verify_code",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/verify_code",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9db085f9d34a07d06086a4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "verification_code",
+							"value": "90966",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addPost",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addPost",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c39d4f9d34a038650ad92",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_type",
+							"value": "image",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Here is this another beautiful pictures",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"value": "",
+							"description": "",
+							"type": "file"
+						},
+						{
+							"key": "hash_tag",
+							"value": "#LookingForward.",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "mohali",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "video",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/get_posts",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/get_posts",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c39d4f9d34a038650ad92",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_type",
+							"value": "image",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "tagged",
+							"value": "N",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/follow_user",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/follow_user",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "other_user_id",
+							"value": "5d9c39d4f9d34a038650ad92",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "follow_status",
+							"value": "Y",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/get_all_posts",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/get_all_posts",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addLike",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addLike",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "5da40e34f9d34a618c4c78b2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "like_status",
+							"value": "like",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getComment",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getComment",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "5da40e34f9d34a618c4c78b2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "commner",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/favoriteGymPartner",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/favoriteGymPartner",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c39d4f9d34a038650ad92",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "partner_id",
+							"value": "5d9d7482f9d34a07d06086a2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "favorite_status",
+							"value": "like",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getUserStat",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getUserStat",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getChatList",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getChatList",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/createChat",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/createChat",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "other_user_id",
+							"value": "5d9c39d4f9d34a038650ad92",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "chat_type",
+							"value": "normal",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "group_name",
+							"value": "Y",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/saveLastMessage",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/saveLastMessage",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "chat_id",
+							"value": "5da94870f9d34a692c1e43b2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "5d9c876af9d34a038650ad94",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "other_user_id",
+							"value": "5d9c39d4f9d34a038650ad92",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Hello man",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "Y",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "chat_type",
+							"value": "normal",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/searchDiet",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/searchDiet",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "filter_value",
+							"value": "htl",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "keyword",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/notification_list",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/notification_list",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5d9c39d4f9d34a038650ad92",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addDiet",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addDiet",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5daa93edf9d34a38ef289252",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "candy1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "beautiful candy1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "period",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "343",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/diet_detail",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/diet_detail",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "diet_id",
+							"value": "5dafffd9f9d34a469607ff52",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "5daa93edf9d34a38ef289252",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/diet_detail",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/diet_detail",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5daa93edf9d34a38ef289252",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "diet_id",
+							"value": "5dafffd9f9d34a469607ff52",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addToMyDiet",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addToMyDiet",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5daa93edf9d34a38ef289252",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "diet_id",
+							"value": "5dafffd9f9d34a469607ff52",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addAdmin",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addAdmin",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "vikas.auspicioussoft@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": "admin"
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/diet_detail",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/diet_detail",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "diet_id",
+							"value": "5dc1184ef9d34a6fc266ae62",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "5dc10435f9d34a5cf12b90a2",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getForRunning",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getForRunning",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dc25b23f9d34a72f8415b72",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "myworkout",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getWorkoutDetails",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getWorkoutDetails",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dc25b23f9d34a72f8415b72",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "workout_id",
+							"value": "5dc25961f9d34a720a3365f2",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addComment",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addComment",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dc25b23f9d34a72f8415b72",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "5dc25961f9d34a720a3365f2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "comment",
+							"value": "Some dummy comment",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "workout",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addToMyRunning",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addToMyRunning",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dc10435f9d34a5cf12b90a2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "running_id",
+							"value": "5dc25961f9d34a720a3365f2",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getForWeightLifting",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getForWeightLifting",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dc10435f9d34a5cf12b90a2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "workout",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/WorkoutDayDetail",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/WorkoutDayDetail",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "workout_id",
+							"value": "5dca4224f9d34a1912224e12",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "day",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "weightlifting",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "week",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addPost",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addPost",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dd23149f9d34a53c41fcb12",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "sdasdasd",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "hash_tag",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "mohali",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_type",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/forgot_password",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/forgot_password",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "vikas.auspicioussoft+4@gmail.com",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getWorkoutDetails",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getWorkoutDetails",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dd22b07f9d34a791c4e91c3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "workout_id",
+							"value": "5dd22be7f9d34a15971aaa22",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/get_diets",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/get_diets",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dd24a52f9d34a78e067aaa5",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_type",
+							"value": "diet",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/get_profile_other",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/get_profile_other",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dd22b07f9d34a791c4e91c3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "other_user_id",
+							"value": "5dd22b07f9d34a791c4e91c3",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getForYoga",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getForYoga",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dd22b07f9d34a791c4e91c3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "exercise",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/removeWorkout",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/removeWorkout",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dd22b07f9d34a791c4e91c3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "5ddb5d35f9d34a61c935f342",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "yoga",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getComment",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getComment",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dd6104bf9d34a39e7791482",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "5ddb5d35f9d34a61c935f342",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "yoga",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addComment",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addComment",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dd6104bf9d34a39e7791482",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "post_id",
+							"value": "5ddb5d35f9d34a61c935f342",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "type",
+							"value": "yoga",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "comment",
+							"value": "dummy comment",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addToMyWeightLifting",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addToMyWeightLifting",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dc25b23f9d34a72f8415b72",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "weightlifting_id",
+							"value": "5dca4224f9d34a1912224e12",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/makeGymPartnerOnOff",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/makeGymPartnerOnOff",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de755e7f9d34a4d06208434",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "gym_partner_status",
+							"value": "on",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/trainerRequest",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/trainerRequest",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de7554ff9d34a49031004d4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "0",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/nearbyGymPartner",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/nearbyGymPartner",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de755e7f9d34a4d06208434",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "lat",
+							"value": "30.7279",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "long",
+							"value": "76.72263",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/likeGymPartner",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/likeGymPartner",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de7554ff9d34a49031004d4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "partner_id",
+							"value": "5de755e7f9d34a4d06208434",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "like_status",
+							"value": "dislike",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/likeGymPartner",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/likeGymPartner",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de755e7f9d34a4d06208434",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "partner_id",
+							"value": "5de7b98bf9d34a70b670b564",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "like_status",
+							"value": "like",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/get_profile_other",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/get_profile_other",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dedce1cf9d34a481e2e75c4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "other_user_id",
+							"value": "5dd22b07f9d34a791c4e91c3\n",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/updateRunSetting",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/updateRunSetting",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5df716b9f9d34a3960408522",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "unit_run",
+							"value": "0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "audio_case_run",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "run_distance_val",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/updateWeightLiftingSetting",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/updateWeightLiftingSetting",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5df716b9f9d34a3960408522",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "unit_wl",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "audio_cues_wl",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/changeAccountType",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/changeAccountType",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5df716b9f9d34a3960408522",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "account_type",
+							"value": "private",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "audio_cues_wl",
+							"value": "1",
+							"type": "text",
+							"description": "",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/trainerRequest",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/trainerRequest",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5df716b9f9d34a3960408522",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/get_setting",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/get_setting",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de7554ff9d34a49031004d4",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/updateEmailNotificationSetting",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/updateEmailNotificationSetting",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de7554ff9d34a49031004d4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email_notification",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/updatePushNotificationSetting",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/updatePushNotificationSetting",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de7554ff9d34a49031004d4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "push_notification",
+							"value": "0",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/deleteAccount",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/deleteAccount",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de7b98bf9d34a70b670b564",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/deleteAccount copy",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/deleteAccount",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5de7b98bf9d34a70b670b564",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getUserStat",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getUserStat",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dfb1636f9d34a76e47f18f4",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/saveStateWY",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/saveStateWY",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dfb1636f9d34a76e47f18f4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "exercise_id",
+							"value": "5dfb2917f9d34a25cb529283",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "ratting",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "yoga",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/getUserStat",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/getUserStat",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5dfb1636f9d34a76e47f18f4",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/register",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addAdmin",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "sam11",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "samy11",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "vikas.auspicioussoft11@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "12345",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "mohali",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "device_type",
+							"value": "samsung",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "device_token",
+							"value": "sasasaasasasasa",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "30.67995",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "76.72211",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://104.248.52.6/fitneb/api/addToMyYoga",
+			"request": {
+				"url": "http://104.248.52.6/fitneb/api/addToMyYoga",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "5ee72306f9d34a1106031a04",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "yoga_id",
+							"value": "5ee28b72f9d34a068c25ad03",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
